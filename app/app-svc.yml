@@ -5,6 +5,7 @@ metadata:
   labels:
     run: wil-playground
 spec:
+  type: NodePort
   ports:
   - port: 8888
     protocol: TCP
