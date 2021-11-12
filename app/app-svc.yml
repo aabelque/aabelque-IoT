@@ -5,8 +5,11 @@ metadata:
   labels:
     run: wil-playground
 spec:
+  type: ClusterIP
   ports:
-  - port: 8888
+  - name: http
+    port: 8888
     protocol: TCP
+    targetPort: 8888
   selector:
     app: wil-playground
