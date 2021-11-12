@@ -10,5 +10,6 @@ spec:
   - port: 8888
     protocol: TCP
     targetPort: 8888
+    nodePort: 8888
   selector:
     app: wil-playground
